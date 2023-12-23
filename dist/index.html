@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- <body class="w-12/12 max-w-9xl min-w-5xl bg-gray-900 text-slate-100 m-0">
+    <div id="box" class="text-center w-6/12 h-96 bg-pink-900 text-slate-200  box-border">
+        <h1 >Guess The Number</h1>
+        <p class="text-2xl">Come!!Try & Guess the Correct Number</p>
+        <p class="text-2xl text-yellow-300">You have To 10 Attempt to Guessthe right Number</p>
+        <br>
+        <form id="form" class="">
+            <label for="guessfield" id="guess" class="text-2xl p-2 ">Guess A Number</label>
+            <input type="text" id="guessfield" class="bg-black text-center mt-6 w-64 h-16 " >
+            <input type="submit" id="sub" value="Submit guess" class="rounded-xl  border-y-white p-3 m-5">
+        </form>
+    </div>
+    
+</body> -->
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white p-8 rounded shadow-md max-w-md w-full">
+        <h1 class="text-2xl font-semibold mb-4">Guess The Number Game</h1>
+    
+        <p class="mb-4">Welcome to the Guess The Number Game! Try to guess the number between 1 and 100.</p>
+    
+        <div class="mb-4">
+            <label for="guess" class="block text-sm font-medium text-gray-600">Your Guess:</label>
+            <input type="number" id="guess" name="guess" class="mt-1 p-2 border rounded w-full">
+        </div>
+        <div class="mb-4" id="new">
+            <p>Previous Guess: <span id="preguess"></span></p>
+            <p>Remaining Attempt: <span id="rem"></span></p>
+            <!-- <button id="newGame"><span></span></button> -->
+        </div>
+    
+        <button id="guessButton" class="bg-blue-500 text-white p-2 rounded">Submit Guess</button>
+    
+        <div id="result" class="mt-4 text-green-700 font-semibold"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
